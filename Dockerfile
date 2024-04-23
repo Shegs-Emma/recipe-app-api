@@ -1,4 +1,8 @@
 FROM python:3.9-alpine3.13
+
+# Install dependencies
+RUN pip install flake8
+
 LABEL maintainer="londonappdeveloper.com"
 
 ENV PYTHONUNBUFFERED 1
